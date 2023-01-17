@@ -17,12 +17,14 @@
     height: 70px;
     width:100%;
     position:fixed ;
+    
 }
 
 /* text decoartion for text in header */
 
 #home,#os{
     text-decoration: none;
+    
 }
 
 /* logo(image) adjustment in header */

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store Details</title>
-    <link rel="stylesheet" href="store_details.css">
+    <link rel="stylesheet" href="upload_document.css">
 </head>
 <body>
     <!-- header of the website -->
@@ -44,61 +44,35 @@
     <!-- store details form -->
     <div><form class="form">
         <table class="table" >
-            <h4 id="form_title">Enter Your Store Details</h4>
+            <h4 id="form_title">Upload Documents</h4>
             <tr r="r1">
-                <th>Choose A Business Category : <select name="Business Category" id="Business Category">
-                    <option value="Grocery">Grocery</option>
-                <option value="Digital">Digital</option>
-                <option value="Stationery">Stationery</option>
-                <option value="Courier">Courier</option>
-                <option value="Food">Food<input type="checkbox" value="Veg" name="food type" id="food_type">Veg <input type="checkbox" value="Non-Veg" name="food type" id="food_type">Non-Veg</option>
+                <th>PAN No.</th>
+                <th>PAN Card</th>
+            </tr>
 
-                </select>
-            </th>
+            <tr id="r1">
+                <td><input type="text" placeholder="Enter PAN Number"></td>
+                <th><input type="text" placeholder="Uplaod PAN Card Picture"></th>
             </tr>
 
             <tr id="r2">
-                <th>Store Name</th>
-                <th>Store Email</th>
+                <th>GSTIN No.</th>
+                <th>GSTIN</th>
             </tr>
 
-            <tr id="r3">
-                <td><input type="text" placeholder="Enter Store Name"></td>
-                <th><input type="text" placeholder="Enter Store Email"></th>
+            <tr id="r2"> 
+                <td><input type="text" placeholder="Enter GSTIN Number"></td>
+                <th><input type="text" placeholder="Uplaod GSTIN Picture "></th>
             </tr>
 
-            <tr id="r4">
-                <th>Store City</th>
-                <th>Pincode</th>
-            </tr>
 
-            <tr id="r5"> 
-                <td><input type="text" placeholder="Enter Store City"></td>
-                <th><input type="text" placeholder="Enter Pin Code"></th>
-            </tr>
-
-            <tr id="r6">
-                <th>Store Address</th>
-                <th>Store Contact</th>
-            </tr>
-
-            <tr id="r7">
-                <td><input type="text" placeholder="Enter Store Address"></td>
-                <th><input type="text" placeholder="Enter Store Contact"></th>
-            </tr>
-
-            <tr id="r8">
-                <th>Store URL</th>
-                
-            </tr>
-
-            <tr id="r9">
-                <td><input type="text" placeholder="Enter Store URL"> <input type="button" value="Generate URL"></td>
-                
-            </tr>
-
+           <tr>
+            <th> <input type="button" value="Save & Upload" id="save_upload"> &nbsp; <input type="button" value="Next" id="next"> </th>
+            
+           </tr>
         </table>
-    </form>
+
+        
 </div>
     
 </body>
