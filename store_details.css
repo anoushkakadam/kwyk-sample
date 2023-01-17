@@ -94,6 +94,7 @@ still needed to be worked on*/
     height: 100%;
     margin-top: 110px;
     margin-left: 200px;
+    
 
 }
 
@@ -101,6 +102,32 @@ still needed to be worked on*/
 #form_title{
     text-align: center;
     margin-top: 13%;
+    font-size: larger;
+
+ 
     
 }
 
+.table{
+
+    columns: 2;
+    text-align:left;
+    padding-top: 3%;
+    display: grid;
+    grid-column-gap: 20px;
+    padding: 20px;
+    position: fixed;
+    font-size: large;
+    height: 50px;
+    row-gap: 20px;
+    grid-row-gap: 50px;
+    
+}
+
+
+/* #r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9{
+
+
+    
+    
+} */
